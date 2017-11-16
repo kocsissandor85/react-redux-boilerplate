@@ -4,7 +4,8 @@
   "description": "A minimalist React and Redux boilerplate to kickstart your application.",
   "main": "./src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --config ./webpack.config.js",
+    "build": "webpack",
+    "start": "webpack-dev-server --progress --config ./webpack.config.js",
     "test": "jest"
   },
   "repository": {
