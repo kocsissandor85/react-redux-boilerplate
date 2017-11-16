@@ -1,12 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`The module wrapper renders correctly 1`] = `
-<div>
-  <h1>
-    Yet Another React-Redux Boilerplate
-  </h1>
-  <p>
-    Hello World!
-  </p>
-</div>
+.c0 {
+  padding: 1rem;
+}
+
+<Wrapper>
+  <module-wrapper__StyledDiv>
+    <div
+      className="c0"
+    >
+      <h1>
+        Yet Another React-Redux Boilerplate
+      </h1>
+      <p>
+        Hello World!
+      </p>
+    </div>
+  </module-wrapper__StyledDiv>
+</Wrapper>
 `;

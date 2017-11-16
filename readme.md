@@ -7,14 +7,21 @@ And this one is not different than most of the personalised setups you have run 
 * React
 * Redux
 * Immutable.js
+* Styled Components
 * Jest
 
 ## Scripts
 
-Webpack dev server
+Start the Webpack dev server
 
 ```
 npm run start
+```
+
+Make a build in the "dist" folder
+
+```
+npm run build
 ```
 
 Run the tests

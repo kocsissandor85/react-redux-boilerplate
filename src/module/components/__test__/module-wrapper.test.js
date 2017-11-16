@@ -3,7 +3,7 @@ import { Wrapper } from "../module-wrapper";
 describe("The module wrapper", () => {
 
   it("renders correctly", () => {
-    const wrapper = shallow(
+    const wrapper = mount(
       <Wrapper>
         <p>Hello World!</p>
       </Wrapper>
