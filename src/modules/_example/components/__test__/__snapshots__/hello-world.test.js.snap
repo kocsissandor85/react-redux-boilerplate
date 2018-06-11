@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The hello world component renders 1`] = `
+<_default>
+  <p>
+    Hello world!
+  </p>
+</_default>
+`;

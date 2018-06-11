@@ -1,14 +1,35 @@
 {
   "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    [
+      "babel-plugin-module-resolver",
+      {
+        "alias": {
+          "app": "./src/app",
+          "data": "./src/data",
+          "modules": "./src/modules",
+          "src": "./src",
+          "ui": "./src/ui"
+        }
+      }
+    ],
+    "lodash",
     "react-hot-loader/babel",
-    "babel-plugin-styled-components"
+    "babel-plugin-styled-components",
+    "@babel/plugin-proposal-class-properties",
+    "syntax-dynamic-import"
   ],
   "presets": [
-    ["env", {
-      "targets": {
-        "browsers": ["last 2 versions"]
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions"
+          ]
+        }
       }
-    }],
-    "react"
+    ],
+    "@babel/preset-react"
   ]
 }
