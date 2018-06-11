@@ -1,6 +1,6 @@
 {
   "name": "react-redux-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A minimalist React and Redux boilerplate to kickstart your application.",
   "main": "./src/index.js",
   "scripts": {
